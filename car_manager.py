@@ -27,6 +27,5 @@ class CarManager:
         for new_car in self.cars:
             new_car.backward(self.car_speed)
 
-
     def increase_speed(self):
         self.car_speed += MOVE_INCREMENT
